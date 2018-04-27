@@ -1,0 +1,173 @@
+body, html {
+    height: 100%;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav.pinned {
+    position: fixed;
+    top: 0;
+    background-color:lightblue;
+    transition: 0.3s ease background-color;
+    -webkit-transition: 0.2s ease background-color;
+}
+
+.navbar-wrapper {
+    height: 3rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
+/* Header
+------------------------------------------------------------ */
+
+.hero {
+    height: 100%;
+    background-color: lightblue;
+    cursor: default;
+}
+
+.hero h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 21rem;
+    z-index: 2;
+}
+
+.hero h6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+
+
+.content a, b {
+    font-weight: bold;
+}
+
+/* About
+------------------------------------------------------------ */
+
+#about-me {
+    text-align: center;
+}
+
+#about-me a {
+    color: #222222;
+}
+
+/* Projects
+------------------------------------------------------------ */
+
+#projects {
+    text-align: center;
+    background: lightblue;
+}
+
+#projects p {
+    padding-bottom: 20px;
+}
+
+#projects img {
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
+}
+
+/* Experience
+------------------------------------------------------------ */
+
+#experience {
+    text-align: center;
+    background: #ffffff;
+}
+
+#experience img {
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
+}
+
+
+/* Responsive
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 800px) {
+    
+    .hero h1 {
+        font-size: 30px;
+        padding-top: 20rem;
+    }
+    
+    .arrow {
+        padding: 1rem;
+    }
+    
+    
+    #projects img {
+        width: 100%;
+    }
+    
+    .content {
+        width: 90%;
+    }
+    
+    .navbar-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .hero h1 {
+        font-size: 30px;
+        padding-top: 17rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    
+    .hero h1 {
+        padding-top: 24rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    
+    .hero h1 {
+        padding-top: 28rem;
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+    
+     h1 {
+        padding-top: 28rem;
+    }
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
