@@ -1,9 +1,9 @@
 body, html {
     height: 100%;
 }
-.arrow-down {
-	width: 0;
-	height: 0;
+.arrow{
+	width: 50;
+	height: 50;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 50px solid #555;
