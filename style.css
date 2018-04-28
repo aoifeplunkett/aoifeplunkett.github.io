@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-	text-align: center
+	text-align: center;
 }
 .arrow-down{
 	width: 0;
@@ -10,6 +10,7 @@ body, html {
 	border-top: 50px solid #555;
 	
 }
+ul{text-align: center;}
 .fa {
   padding: 50px;
   font-size: 30px;
