@@ -35,7 +35,7 @@ nav.pinned {
 
 .navbar {
     text-align: center;
-	color: lightblue
+	color: lightblue;
 }
 
 /* Header
@@ -73,6 +73,7 @@ nav.pinned {
 
 #about-me {
     text-align: center;
+	background: white;
 }
 
 #about-me a {
