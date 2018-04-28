@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+	text-align: center
 }
 .arrow-down{
 	width: 0;
@@ -80,7 +81,7 @@ nav.pinned {
 }
 
 #about-me a {
-    color: #222222;
+    color: white;
 }
 
 /* Projects
@@ -106,7 +107,7 @@ nav.pinned {
 
 #experience {
     text-align: center;
-    background: #ffffff;
+    background: white;
 }
 
 #experience img {
