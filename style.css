@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
 	text-align: center;
+	
 }
 
 .fa {
@@ -34,6 +35,7 @@ nav.pinned {
 
 .navbar {
     text-align: center;
+	color: lightblue
 }
 
 /* Header
