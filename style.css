@@ -8,14 +8,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
 }
 
 /* Style the header */
 .header {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    background: skyblue;
     color: white;
 }
 
@@ -27,7 +27,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:skyblue;
 }
 
 /* Style the navigation bar links */
@@ -117,15 +117,15 @@ body {
 }
 
 .facebook {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 .github {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 .instagram {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 
