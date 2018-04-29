@@ -1,4 +1,4 @@
-$(function() {
+(function() {
 
    window.onscroll = function() {scrollFunction()};
 
