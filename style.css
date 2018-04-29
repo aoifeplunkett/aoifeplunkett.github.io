@@ -1,6 +1,23 @@
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
+--------------------------------style--------------------------------
+body, html {
+    height: 100%;
+	text-align: center;
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 15px;
+	color: #222222; 
+}
+
+a, a:hover {
+	color: inherit;
+	text-decoration: none; 
+}	
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-weight: 600;
@@ -33,17 +50,9 @@ h6 {
 	font-size: 16px; 
 }
 
-body, html {
-	width: 100%;
-	height: 100%;
-	font-family: "Proxima Nova", Helvetica, sans-serif;
-	font-size: 15px;
-	color: #222222; 
-}
-
-a, a:hover {
-	color: inherit;
-	text-decoration: none; 
+p {
+	margin: 1rem 0;
+	line-height: 1.8; 
 }
 
 ul {
@@ -57,81 +66,6 @@ ul li {
 	font-weight: 200; 
 }
 
-p {
-	margin: 1rem 0;
-	line-height: 1.8; 
-}
-
-.content {
-	max-width: 60rem;
-	margin: 0 auto;
-	width: 54%; 
-}
-
-.hero {
-	position: relative;
-	overflow: hidden;
-}
-
-section { 
-    padding: 4rem 0; 
-}
-
-footer {
-	padding: 2rem;
-	background-color: #222222;
-	color: white;
-	text-align: center; 
-}
-
-footer p {
-	margin: 0;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-}
-
-nav {
-	height: 3rem;
-	position: relative;
-	width: 100%; 
-}
-
-nav ul {
-	height: 3rem;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-	font-size: 0;
-	list-style: none; 
-}
-
-nav ul li {
-	font-size: 15px;
-	padding: 0;
-	display: inline-block;
-}
-
-nav ul li:hover {
-	cursor: pointer;
-	color: white;
-	background-color: #e9ded7; 
-}
-
-nav ul li p {
-	height: 1.5rem;
-	line-height: 1.5rem;
-	margin: 0;
-	padding: 0.75rem 1.5rem; 
-}
-
-
---------------------------------style--------------------------------
-body, html {
-    height: 100%;
-	text-align: center;
-	
-}
-
 .fa {
   padding: 50px;
   font-size: 30px;
@@ -143,40 +77,6 @@ body, html {
     opacity: 0.7;
 }
 
-
-nav {
-    position: relative;
-    z-index: 1;
-}
-
-
-
-.navbar-wrapper {
-    height: 1rem;
-}
-
-#navbar {
-    background-color: #333; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
-}
-
-/* Style the navbar links */
-#navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
 /* Responsive Navigation
 --------------------------------------------- */
 
@@ -200,7 +100,10 @@ nav {
 
 /* Header
 ------------------------------------------------------------ */
-
+.hero {
+	position: relative;
+	overflow: hidden;
+}
 .hero {
     height: 100%;
     background-color: lightblue;
@@ -222,10 +125,17 @@ nav {
     z-index: 2;
 }
 
-
-
 .content a, b {
     font-weight: bold;
+}
+.content {
+	max-width: 60rem;
+	margin: 0 auto;
+	width: 54%; 
+}
+
+section { 
+    padding: 4rem 0; 
 }
 
 /* About
@@ -257,6 +167,23 @@ nav {
     height: auto;
     margin: 15px auto;
 }
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
 
 /* Experience
 ------------------------------------------------------------ */
@@ -276,8 +203,6 @@ nav {
 /* Responsive
 ------------------------------------------------------------ */
 
-@media only screen and (max-width: 800px) {
-    
     .hero h1 {
         font-size: 30px;
         padding-top: 20rem;
@@ -296,54 +221,25 @@ nav {
         width: 90%;
     }
     
-    .navbar-wrapper {
-        display: none;
-    }
-}
 
-@media only screen and (max-width: 600px) {
-    
     .hero h1 {
         font-size: 30px;
         padding-top: 17rem;
     }
-}
 
-@media only screen and (min-width: 1400px) {
-    
+
     .hero h1 {
         padding-top: 24rem;
     }
-}
 
-@media only screen and (min-width: 1600px) {
+
     
     .hero h1 {
         padding-top: 28rem;
     }
-}
 
 
-@media only screen and (min-width: 1600px) {
-    
      h1 {
         padding-top: 28rem;
     }
-}
-* {box-sizing: border-box}
 
-.container {
-  width: 100%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 40px;
-  color: white;
-}
-
-.html {width: 90%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
