@@ -49,6 +49,9 @@ nav {
     background-color: #ddd;
     color: black;
 }
+nav-primary {
+    margin: 0 auto;
+}
 /* Header
 ------------------------------------------------------------ */
 
