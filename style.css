@@ -177,9 +177,27 @@ nav {
     background-color: #ddd;
     color: black;
 }
-nav-primary {
-    margin: 0 auto;
+/* Responsive Navigation
+--------------------------------------------- */
+
+.responsive-menu-icon {
+	cursor: pointer;
+	display: none;
+	margin-top: 10px;
 }
+
+.nav-primary .responsive-menu-icon::before {
+	color: #fff;
+	content: "\f333";
+	font: normal 24px/1 "dashicons";
+	margin: 0 auto;
+}
+
+.nav-primary .responsive-menu-icon {
+	text-align: center;
+
+}
+
 /* Header
 ------------------------------------------------------------ */
 
